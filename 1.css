@@ -1,0 +1,180 @@
+body {
+  background: #fafafa;
+}
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+body .topNavBar {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body .topNavBar h1 {
+  margin-top: 40px;
+  font-size: 42px;
+  color: #706c6c;
+  font-weight: normal;
+}
+body .topNavBar span {
+  font-size: 40px;
+  color: #333333;
+  font-weight: bold;
+}
+body .logo {
+  margin: 0 auto;
+  width: 300px;
+}
+body .windows {
+  overflow: hidden;
+  width: 600px;
+  height: 610px;
+  margin: 10px auto 40px auto;
+  box-shadow: 0 0 3px #aaaaaa;
+  border-radius: 3px;
+  position: relative;
+  background: #f2f2f2;
+}
+body .windows svg#left {
+  position: absolute;
+  top: 40%;
+  left: 5px;
+}
+body .windows svg#right {
+  position: absolute;
+  top: 40%;
+  right: 5px;
+}
+body .windows>svg{
+  transition: all 0.3s;
+  fill: #706c6c;
+  z-index: 1;
+}
+body .windows>svg:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+body .windows .images {
+  display: flex;
+  align-items: flex-start;
+  transition: transform 0.5s;
+}
+body .windows .images img {
+  flex-shrink: 0;
+  margin: 0 50px;
+}
+body .windows .images img:nth-child(1) {
+  margin-top: -40px;
+}
+body .windows .images img:nth-child(2) {
+  margin-top: -80px;
+}
+body .windows .images img:nth-child(3) {
+  margin-top: -60px;
+}
+body .windows .images img:nth-child(4) {
+  margin-top: 60px;
+}
+body .windows .images img:nth-child(5) {
+  margin-top: -40px;
+}
+body .windows .images img:nth-child(6) {
+  margin-top: -80px;
+}
+body .buttons {
+  width: 600px;
+  display: flex;
+  align-items: flex-start;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0;
+  background: linear-gradient(to bottom, #fafafa 0%, #ececec 100%);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+body .buttons div {
+  margin: 0px 5px;
+  padding: 10px 0;
+  box-shadow: 0 0 3px #aaaaaa;
+  width: 33%;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s;
+  margin: 0 1px;
+  display: inline-block;
+  line-height: 40px;
+}
+body .buttons div:nth-child(3) {
+  padding-bottom: 3px;
+}
+body .buttons div svg {
+  vertical-align: top;
+}
+body .buttons div:nth-child(3) svg {
+  width: 55px;
+  height: 55px;
+  margin-top: -6px;
+}
+body .buttons div:nth-child(1) {
+  margin-left: 0;
+}
+body .buttons div:nth-child(4) {
+  margin-right: 0;
+}
+body .buttons div.active {
+  background: linear-gradient(
+    to bottom,
+    #dedede 0%,
+    #b2b2b2 49%,
+    #b2b2b2 100%,
+    #dddddd 100%
+  );
+  color: #ffffff;
+}
+body .buttons div span {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body footer {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+body footer h1 {
+  font-size: 24px;
+  color: #706c6c;
+  font-weight: normal;
+}
+body footer a {
+  font-size: 18px;
+  color: purple;
+  transition: 0.3s;
+}
+body footer .wrapper {
+  text-align: center;
+  line-height: 40px;
+  padding: 10px 0;
+}
+body footer .wrapper:hover a {
+  text-decoration: underline;
+  font-size: 20px;
+  font-weight: bold;
+}
+body footer .wrapper svg {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+body footer .wrapper:hover svg {
+  width: 40px;
+  height: 40px;
+}

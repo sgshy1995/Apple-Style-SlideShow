@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="1.css">
+    <script src="//at.alicdn.com/t/font_1492710_aglra84q7jp.js"></script>
+    <title>苹果风格的轮播</title>
+</head>
+
+<body>
+
+    <div class="topNavBar">
+        <h1>Apple-like Product Style</h1>
+        <span>SlideShow</span>
+    </div>
+
+    <div class="logo">
+        <img src="./img/applelogo.png" alt="logo" width=300>
+    </div>
+
+    <div class="windows">
+        <svg id="left" class="icon" aria-hidden="true">
+            <use xlink:href="#icon-left"></use>
+        </svg>
+        <svg id="right" class="icon" aria-hidden="true">
+            <use xlink:href="#icon-right"></use>
+        </svg>
+        <div id="slides" class="images">
+            <img src="./img/iphone-201901-min.jpg" alt="img1" width=500>
+            <img src="./img/ipad-2019-min.png" alt="img2" width=500>
+            <img src="./img/imac-2019-min.jpg" alt="img3" width=500>
+            <img src="./img/iwatch-2019-min.png" alt="img4" width=500>
+        </div>
+        <div id="buttons" class="buttons clearfix">
+            <div class="active">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-iphonex"></use>
+                </svg>
+                <span>iPhone 11 Pro</span>
+            </div>
+            <div>
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-ipad"></use>
+                </svg>
+                <span>iPad Pro</span>
+            </div>
+            <div>
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-MacBookPro"></use>
+                </svg>
+                <span>MacBook Pro</span>
+            </div>
+            <div>
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-watch"></use>
+                </svg>
+                <span>iWatch Series 5</span>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <h1>Made by Eden Sheng</h1>
+        <div class="wrapper">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-git"></use>
+            </svg>
+            <a href="https://github.com/sgshy1995/Apple-Rotation-Broadcasting" target="_blank">→ Click here to preview
+                the
+                source code.</a>
+        </div>
+    </footer>
+
+</body>
+<script src="jquery-3.4.1.min.js"></script>
+<script src="main-new.js"></script>
+
+</html>
