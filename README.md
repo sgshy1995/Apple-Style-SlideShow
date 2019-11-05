@@ -1,4 +1,5 @@
 ## Apple-Style SlideShow
+## 苹果风格的轮播
 
 Use jQuery and set/clearInterval etc.<br><br>
 Its the final version.<br>
