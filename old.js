@@ -16,10 +16,10 @@ for (let i = 0; i < allButtons.length; i++) {
 
 var n = 0
 var size = allButtons.length
+var timerId = setTimer() //初始化闹钟
 
 playSlide(n % size)
 
-var timerId = setTimer() //初始化闹钟
 
 $('.windows').on('mouseenter', function () { //鼠标进入停止并清除闹钟
     window.clearInterval(timerId)
